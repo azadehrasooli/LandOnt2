@@ -400,6 +400,20 @@ h1 span{
   font-weight:300;
 }
 
+.about-us .patience p.graph{
+  color: #a4a4a4;
+  margin:100px auto;
+  width:550px;
+  line-height:26px;
+  letter-spacing:0;
+  font-size:14px;
+  font-weight:300;
+  text-align:center;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
 .about-us .column-one{
   margin-top:40px;
   width:300px;
@@ -492,19 +506,7 @@ h1 span{
   border:2px solid #ada074;
 }
 
-.about-us .patience p.graph{
-  color: #a4a4a4;
-  margin:50px auto;
-  width:440px;
-  line-height:26px;
-  letter-spacing:0;
-  font-size:17px;
-  font-weight:300;
-  text-align:center;
-  text-align: justify;
-  text-justify: inter-word;
 
-}
 
 /* Portfolio */
 
