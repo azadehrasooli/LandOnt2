@@ -88,7 +88,7 @@ h1 span{
   width:100%;
   height:100%;
   z-index:10;
-  background:url("img/background/a.jpg") #c0c0c0 bottom center fixed no-repeat;
+  background:url('https://raw.githubusercontent.com/azadehrasooli/owllandont/master/start-page-reduced.jpg') #c0c0c0 bottom center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -774,7 +774,7 @@ h1 span{
   width:100%;
   z-index:10;
   height:400px;
-  background:url('../img/background/partners.jpg') #e8e3d8 0px 0px fixed;
+  background:url('../img/background/partners.jpg') #ada074 0px 0px fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -793,6 +793,8 @@ h1 span{
   left:0;
   right:0;
 }
+
+
 
 .partners h2{
   color:white;
