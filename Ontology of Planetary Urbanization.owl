@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/azad/ontologies/2016/10/untitled-ontology-45"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/azad/ontologies/2016/10/untitled-ontology-45">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Agglomeration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Axis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concentrated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concentration_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Densified_Zone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Effect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extreme_Territory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morphological_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Urban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planetary_Urbanization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population_Threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Territory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wilderness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Analysed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Apostolou_Doxiadis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#David_Harvey"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Described"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Dialectic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Edward_Soja"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Ernest_Burgess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Henri_Lefebvre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Jean_Gottmann"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Kingsley_Davis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Not"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Saskia_Sassen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BosWash"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agglomeration"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concentrated"/>
+        <Class IRI="#Planetary_Urbanization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concentration_1"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connectivity"/>
+        <Class IRI="#Axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Densification"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extended"/>
+        <Class IRI="#Planetary_Urbanization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extreme_Territory"/>
+        <Class IRI="#Extended"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intensity"/>
+        <Class IRI="#Axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metabolism"/>
+        <Class IRI="#Axis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planetary_Urbanization"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rural"/>
+        <Class IRI="#Non_Urban"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wilderness"/>
+        <Class IRI="#Non_Urban"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Territory"/>
+        <NamedIndividual IRI="#BosWash"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Analysed_by"/>
+        <Class IRI="#Extreme_Territory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Apostolou_Doxiadis"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#David_Harvey"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Unite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Dialectic"/>
+        <Class IRI="#Concentrated"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Edward_Soja"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Ernest_Burgess"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Henri_Lefebvre"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Jean_Gottmann"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Kingsley_Davis"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Not"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Saskia_Sassen"/>
+        <Class IRI="#Urban"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Analysed_by"/>
+        <Class IRI="#Axis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Apostolou_Doxiadis"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#David_Harvey"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Densified_Zone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Population_Threshold"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Described"/>
+        <Class IRI="#Territory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dialectic"/>
+        <Class IRI="#Extended"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Edward_Soja"/>
+        <Class IRI="#Densified_Zone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Edward_Soja"/>
+        <Class IRI="#Morphological_Condition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Ernest_Burgess"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has"/>
+        <Class IRI="#Criteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Henri_Lefebvre"/>
+        <Class IRI="#Effect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Henri_Lefebvre"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Jean_Gottmann"/>
+        <Class IRI="#Territory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Kingsley_Davis"/>
+        <Class IRI="#Population_Threshold"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Not"/>
+        <Class IRI="#Non_Urban"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Saskia_Sassen"/>
+        <Class IRI="#Node"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
